@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: deeppink;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    width: 300px;
+    height: 300px;
+}

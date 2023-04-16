@@ -1,0 +1,52 @@
+/*OBJETIVO:
+
+El botón se traslade -5px en el eje de las Y
+
+Se añada una sombra
+
+El color de fondo del botón cambie
+
+El color del texto cambie
+
+Todo esto con una transición de 0.4s */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Poppins:wght@300;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+body {
+    background-color: #4E6E81;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.btn-modern {
+    background-color: #F9DBBB;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    font-size: 35px;
+}
+
+.btn-modern:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);    color: #2E3840;
+    background-color: #2E3840;
+    color: #f8f5f5;
+    transition: 0.45s;
+    transform: translate(0, -5px);
+}
+
+
+
